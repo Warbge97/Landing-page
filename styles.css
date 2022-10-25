@@ -1,0 +1,223 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    
+}
+
+.menu-container{
+    background-color: rgb(52, 52, 73);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    width:700px;
+    gap: 20px;
+    color: rgb(182, 182, 182);
+}
+
+
+.main-title{
+    background-color: rgb(52, 52, 73);
+    display:flex;
+    color:antiquewhite;
+    height: 500px;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+.main-items{
+    
+    justify-content: space-evenly;
+    width: 1000px;
+    display:flex;
+    height:300px;
+
+}
+
+.header-title{
+    color:white;
+    font-size: 48px;
+
+}
+
+.button-1-container{
+    display:flex;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 15px;
+    
+    
+    
+}
+
+.button-1{ 
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 0 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+
+}
+
+.button-1:hover{
+    background-color: rgb(0, 73, 138);
+}
+    
+
+.image-container{
+    width: 400px;
+    display:flex;
+
+}
+
+.website-img{
+    display:flex;
+
+}
+.second-title-container{
+    padding:60px;
+}
+.second-title{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.photo-grid-container{
+    display:flex; 
+    width: 400;
+    justify-content: center;
+    height: 300px;
+
+}
+
+.photo-grid{
+    display:flex;
+    justify-content: space-around ;
+    width: 1200px;
+    height: 40px;
+
+}
+
+.subtext{
+    text-align: left;
+    width: 200px;
+}
+
+.quote-container{
+    height:400px;
+    background-color: rgba(138, 138, 138, 0.557);
+    display: flex;
+    justify-content: center;
+
+
+}
+.quote{ 
+    height: 200px;
+    font-size: 30px;
+    display: flex;
+    margin-top: 100px;
+    width: 700px; 
+    font-weight: lighter;
+}
+
+.quote-author{
+    margin-top: 315px;
+    margin-right:20px ;
+    font-size: 20px;
+    
+}
+
+.sign-up-container{
+    height: 375px;
+}
+
+.sign-up{
+    height:350px;
+    justify-content: center;
+    display: flex;
+}
+
+.call-to-action-container{
+    background-color: dodgerblue;
+    color: white;
+    height: 150px;
+    width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    
+}
+
+.call-to-action{
+    margin-top: 50px;
+}
+
+.its-time{
+    font-size: larger;
+}
+
+.sign-up-button-container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.product-sign-up{
+    color: antiquewhite;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.sign-up-button{
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 120px;
+    justify-content: center;
+    padding-top: 8px;
+    border-radius: 10px;
+    border:2px solid white;
+    background-color: dodgerblue;
+    cursor: pointer;
+    color:white;
+}
+
+.sign-up-button:hover{
+    background-color: rgb(0, 73, 138);
+}
+
+.footer-container{
+    height: 100px;
+    background-color:rgb(52, 52, 73);
+    display: flex;
+
+}
+
+.footer{
+
+    justify-content: center;
+    display: flex;
+    width: 2000px;
+    color: antiquewhite;
+    margin-top: 35px;
+}
